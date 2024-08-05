@@ -38,6 +38,8 @@ deactivate nondestructive
 VIRTUAL_ENV="C:\Users\Administrator\Desktop\Smart-Presensi\.venv"
 export VIRTUAL_ENV
 
+pip install opencv-contrib-python
+
 _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/Scripts:$PATH"
 export PATH
