@@ -35,10 +35,8 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Administrator\Desktop\Smart-Presensi\.venv"
+VIRTUAL_ENV="c:\Users\Administrator\Desktop\Absen Wajah\.venv"
 export VIRTUAL_ENV
-
-pip install opencv-contrib-python
 
 _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/Scripts:$PATH"
